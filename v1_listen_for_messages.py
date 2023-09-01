@@ -1,9 +1,10 @@
 """
 
-Always customize this docstring. 
+This program sends a message to a queue on the RabbitMQ server.
 
-Add your name, date, and a description of the program.
-
+    Naiema Elsaadi
+    Date: August 30, 2023
+    
 Listens for messages on the queue.
 This process runs continously. 
 
@@ -27,14 +28,14 @@ Terminal Reminders
 """
 
 # you can add multiple imports on one line 
-# but we don't recommend it for readability
+# but we don't recommend it for readability 
 import pika, sys, os
 
 
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHostt'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHost'))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue

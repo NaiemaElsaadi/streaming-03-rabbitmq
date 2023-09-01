@@ -1,5 +1,8 @@
 # streaming-03-rabbitmq
 
+ Naiema Elsaadi
+ Date: August 30, 2023
+
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
 
 ## Before You Begin
@@ -94,4 +97,4 @@ Each of the version 2 programs include an error as well.
 
 ## Multiple Terminals
 
-![Mac Example](screenshot.png)
+![Mac Example](Naiema.png)
